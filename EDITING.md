@@ -37,6 +37,13 @@ Edit `venue` in `editable/wedding-data.js`:
 - `mapsQuery`: Query for Google Maps directions
 - `osmEmbed`: OpenStreetMap iframe embed URL
 
+### WhatsApp RSVP
+Edit `rsvp` in `editable/wedding-data.js`:
+- `phone`: Contact phone number (e.g. `"9885758054"`)
+- `whatsappNumber`: International format number without symbols (e.g. `"919885758054"`)
+- `formattedPhone`: Formatted display number (e.g. `"+91 98857 58054"`)
+- `message`: Pre-filled WhatsApp message sent by guests
+
 ### Images
 Replace files directly in `editable/assets/` or update paths in `images` in `editable/wedding-data.js`:
 - Couple illustration/photo: `editable/assets/couple.webp`

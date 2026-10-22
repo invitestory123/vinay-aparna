@@ -60,6 +60,16 @@ window.WEDDING_DATA = {
     osmEmbed: "https://www.openstreetmap.org/export/embed.html?bbox=82.9879%2C17.6806%2C83.0279%2C17.7046&layer=mapnik&marker=17.6926%2C83.0079",
   },
 
+  rsvp: {
+    title: "RSVP",
+    teluguTitle: "ప్రత్యుత్తరం ఇవ్వండి",
+    subtitle: "Your warm presence and blessings will make our celebrations truly special. Kindly confirm your attendance.",
+    phone: "9885758054",
+    whatsappNumber: "919885758054",
+    formattedPhone: "+91 98857 58054",
+    message: "Namaste! We are happy to confirm our presence for Vinay & Aparna's wedding celebrations on 30th October 2026.",
+  },
+
   music: {
     url: "https://youtu.be/LG6PANt6sM8?si=h1MIGA6Z8J7TIaQS",
     src: "editable/assets/bgm.mp3",
