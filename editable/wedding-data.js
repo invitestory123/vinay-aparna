@@ -5,8 +5,10 @@
 
 window.WEDDING_DATA = {
   couple: {
-    bride: "Aparna",
-    groom: "Vinay",
+    bride: "Vinay",
+    groom: "Aparna",
+    brideFirst: "Vinay",
+    groomFirst: "Aparna",
     hashtag: "#VinayWedsAparna",
     brideFamily: "The Apparao Family",
     groomFamily: "The Seetharam Family",
@@ -20,20 +22,31 @@ window.WEDDING_DATA = {
     muhurthamTimeLabel: "Muhurtham at 10:59 AM",
     muhurthamISO: "2026-10-30T10:59:00+05:30",
     inviteLine1: "With the divine blessings of Lord Ganesha and our elders,",
-    inviteLine2: "we joyfully invite you and our family to the wedding muhurtham of our beloved children. Your presence is the greatest gift — please come, bless the couple, and celebrate with us.",
+    inviteLine2: "we joyfully invite you and our family to the wedding celebrations of our beloved children. Your presence is the greatest gift — please come, bless the couple, and celebrate with us.",
   },
 
   events: [
     {
       id: "muhurtham",
       title: "Muhurtham",
-      telugu: "ముహూర్తం",
+      telugu: "శుభ ముహూర్తం",
       dateLabel: "Friday, 30th October 2026",
       timeLabel: "10:59 AM sharp",
       startISO: "2026-10-30T10:59:00+05:30",
       endISO: "2026-10-30T13:00:00+05:30",
       note: "The sacred ceremony — please be seated by 10:30 AM.",
       icon: "fire",
+    },
+    {
+      id: "reception",
+      title: "Reception & Dinner",
+      telugu: "రిసెప్షన్ మరియు విందు",
+      dateLabel: "Friday, 30th October 2026",
+      timeLabel: "7:00 PM onwards",
+      startISO: "2026-10-30T19:00:00+05:30",
+      endISO: "2026-10-30T22:30:00+05:30",
+      note: "Celebrations, blessings, and dinner at the same function hall.",
+      icon: "sparkles",
     },
   ],
 
